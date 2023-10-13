@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f1893;
+  /* background-color: aliceblue; */
+}
+.container {
+  padding: 0 14%;
+  margin: 50px auto;
+  max-width: 1900px;
+  font-family: "DM Sans", sans-serif;
+}
+/* ............NavBar start............ */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.StartupText {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+.menus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.menus > a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+.menus > .Menu-1 {
+  opacity: 0.3;
+}
+.btn-2 {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 100px;
+  background-color: #e93a7d;
+}
+/* ............NavBar end............ */
+
+/* .............Main Content start...............*/
+.main-content-box {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AboutUs-box {
+  width: 50%;
+}
+
+.title-1 {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86px;
+  text-align: left;
+  margin: 0px;
+}
+.sub-title-box {
+  width: 60%;
+}
+.sub-title {
+  margin: 10% 0;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
+.LearnMore-btn-box {
+  margin: 10% 0;
+}
+.heading {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+.sign-up-box {
+  padding: 40px 20px;
+  width: 35%;
+  border-radius: 12px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.sign-up-input {
+  margin: 15px 0;
+  color: #000;
+  background-color: transparent;
+  border-radius: 100px;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: 2px solid #ebeaed;
+}
+.sign-up-input:focus {
+  outline: none;
+  border-color: #ebeaed;
+}
+.sign-up-input::placeholder {
+  color: #15143966;
+  font-size: 20px;
+}
+.sbmt-btn {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #482be7;
+  border-radius: 100px;
+  width: 65%;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sbmt-btn:hover {
+  cursor: pointer;
+}
+.btn2 {
+  background-color: #1da1f2;
+}
+.Terms-of-service {
+  color: #15143966;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.divide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divider {
+  color: #ebeaed;
+  margin: 0 20px;
+  width: 25%;
+  border-bottom: 2px solid #b8b3c2;
+}
+.or-txt {
+  color: #b8b3c2;
+  font-size: 16px;
+  font-weight: 500;
+}
+.checktick {
+  text-align: left;
+}
+.option {
+  margin-bottom: 10%;
+}
+.sign-in-btn {
+  margin-left: 10px;
+  color: #25dac5;
+}
+.msg {
+  color: #15143966;
+}
